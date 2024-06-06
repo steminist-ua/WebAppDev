@@ -9,7 +9,7 @@ hero:
   
   actions:
     - theme: brand
-      text: Frontend (1 семестр)
+      text: Frontend (1 семестр) 
       link: /markdown-examples
     - theme: alt
       text: Backend (2 семестр)

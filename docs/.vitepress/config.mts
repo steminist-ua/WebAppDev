@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Web Applications",
   description: "Online course of lectures on Frontend and Backend development",
+  base: '/WebAppDev/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

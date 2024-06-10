@@ -2,14 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Web Applications",
+  title: "Web Development",
   description: "Online course of lectures on Frontend and Backend development",
   base: '/WebAppDev/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Головна', link: '/' },
-      { text: 'Лекції', link: '/markdown-examples' }
+      { text: 'Матеріали', link: '/frontend/f1' }
     ],
 
     sidebar: [
@@ -20,31 +20,33 @@ export default defineConfig({
           { text: '2. Робота з об\'єктами та масивами у JavaScript', link: '/frontend/f2' },
           { text: '3. Розробка інтерактивних веб-сторінок з використанням JavaScript', link: '/frontend/f3' },
           { text: '4. Основи React', link: '/frontend/f4'  },
-          { text: '5. Робота зі станом в React', link: '/api-examples' },
-          { text: '6. Робота з формами в React', link: '/api-examples' },
-          { text: '7. Робота з API в React', link: '/api-examples' },
-          { text: '8. Роутинг в React', link: '/api-examples' },
-          { text: '9. Додаткові можливості React', link: '/api-examples' },
-          { text: '10. Оптимізація та тестування в React', link: '/api-examples' }
+          { text: '5. Робота зі станом в React', link: '/frontend/f5' },
+          { text: '6. Робота з формами в React', link: '/frontend/f6' },
+          { text: '7. Робота з API в React', link: '/frontend/f7' },
+          { text: '8. Роутинг в React', link: '/frontend/f8' },
+          { text: '9. Додаткові можливості React', link: '/frontend/f9' },
+          { text: '10. Оптимізація та тестування в React', link: '/frontend/f10' }
         ]
       },
       {
         text: 'Backend',
         items: [
-          { text: '1. Вступ до backend розробки та роль у WEB-застосунках', link: '/markdown-examples' },
-          { text: '2. Основи Node.js', link: '/api-examples' },
-          { text: '3. Робота з базами даних MySQL', link: '/api-examples' },
-          { text: '4. Робота з базами даних MongoDB', link: '/api-examples' },
-          { text: '5. Основи backend розробки з використанням PHP', link: '/api-examples' },
-          { text: '6. Основи backend розробки з використанням Python', link: '/api-examples' },
-          { text: '7. Основи backend розробки з використанням Java', link: '/api-examples' },
-          { text: '8. Розгортання WEB-застосунків', link: '/api-examples' }
+          { text: '1. Вступ до backend розробки та роль у WEB-застосунках', link: '/backend/b1' },
+          { text: '2. Основи Node.js', link: '/backend/b2' },
+          { text: '3. Робота з базами даних MySQL', link: '/backend/b3' },
+          { text: '4. Робота з базами даних MongoDB', link: '/backend/b4' },
+          { text: '5. Основи backend розробки з використанням PHP', link: '/backend/b5' },
+          { text: '6. Основи backend розробки з використанням Python', link: '/backend/b6' },
+          { text: '7. Основи backend розробки з використанням Java', link: '/backend/b7' },
+          { text: '8. Розгортання WEB-застосунків', link: '/backend/b8' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/steminist-ua' },
+      { icon: 'instagram', link: 'https://www.instagram.com/steminist.ua' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/anastasiia-iskandarova-mala/' }
     ]
   }
 })

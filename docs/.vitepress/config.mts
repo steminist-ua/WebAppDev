@@ -9,8 +9,15 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Головна', link: '/' },
-      { text: 'Матеріали', link: '/frontend/f1' }
+      { text: 'Матеріали', link: '/frontend/f1' },
+      { text: 'Frontend RoadMap', link: 'https://roadmap.sh/frontend' },
+      { text: 'Backend RoadMap', link: 'https://roadmap.sh/backend' },
+      { text: 'Підготовка до співбесід', link: 'https://steminist-ua.github.io/Interview-Questions/' }
     ],
+
+    search: {
+      provider: 'local'
+    },
 
     sidebar: [
       {
@@ -39,6 +46,14 @@ export default defineConfig({
           { text: '6. Основи backend розробки з використанням Python', link: '/backend/b6' },
           { text: '7. Основи backend розробки з використанням Java', link: '/backend/b7' },
           { text: '8. Розгортання WEB-застосунків', link: '/backend/b8' }
+        ]
+      },
+      {
+        text: 'Додаткові матеріали',
+        items: [
+          {text: 'Підготовка до іспиту (тестування)', link: 'test'},
+          {text: 'Ідеї проєктів (react)', link: '/frontend/ideas'},
+          {text: 'Ідеї проєктів (backend)', link: '/backend/ideas'}
         ]
       }
     ],
